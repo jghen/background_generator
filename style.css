@@ -12,6 +12,16 @@ h1 {
     color: rgba(0,0,0,.5);
     width: 100%;
 }
+input {
+    border: none;
+    background: rgb(255,255,255);
+    border-radius: 6px;
+    
+}
+input[type=color]::-webkit-color-swatch{
+    border-radius: 3px;
+    border: none;
+}
 
 h2{
     font: 600 2em 'Raleway';
