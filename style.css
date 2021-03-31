@@ -6,21 +6,20 @@ body {
     letter-spacing: .1em;
     top: 15%;
     background: linear-gradient(to right, white , rgba(0,85,255)); /* Standard syntax */
-    
 }
 h1 {
-    font: 600 3em 'Raleway', sans-serif;
+    font: 600 3em 'Raleway';
     color: rgba(0,0,0,.5);
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: .1em;
     width: 100%;
+}
+
+h2{
+    font: 600 2em 'Raleway';
 }
 
 h3 {
 	font: 900 1em 'Raleway', sans-serif;
     color: rgba(0,0,0,.5);
-    text-align: center;
     text-transform: none;
     letter-spacing: 0.01em;
 
@@ -29,9 +28,9 @@ div {
     height: 40vh;
 }
 
-@media only screen and (max-width:240px){
-    h1, h3 {
-        font-size: 10%;
+@media only screen and (max-width:640px){
+    h1, h2, h3 {
+        font-size: 50%;
     }
     div {
         height: 10vh;
