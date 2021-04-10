@@ -5,22 +5,33 @@ body {
     text-transform: uppercase;
     letter-spacing: .1em;
     top: 15%;
-    background: linear-gradient(to right, white , rgba(0,85,255)); /* Standard syntax */
-    
+    background: linear-gradient(to right, rgb(228, 243, 199) , rgb(60, 255, 0)); /* Standard syntax */
 }
 h1 {
-    font: 600 3.5em 'Raleway', sans-serif;
+    font: 600 3em 'Raleway';
     color: rgba(0,0,0,.5);
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: .1em;
     width: 100%;
+}
+input {
+    border: none;
+    background: rgb(228, 243, 199);
+    border-radius: 6px;
+    width: 5vw;
+    height: 5vh;
+    
+}
+input[type=color]::-webkit-color-swatch{
+    border-radius: 3px;
+    border: none;
+}
+
+h2{
+    font: 600 2em 'Raleway';
 }
 
 h3 {
 	font: 900 1em 'Raleway', sans-serif;
     color: rgba(0,0,0,.5);
-    text-align: center;
     text-transform: none;
     letter-spacing: 0.01em;
 
@@ -29,9 +40,9 @@ div {
     height: 40vh;
 }
 
-@media only screen and (max-width:240px){
-    h1, h3 {
-        font-size: 10%;
+@media only screen and (max-width:640px){
+    h1, h2, h3 {
+        font-size: 50%;
     }
     div {
         height: 10vh;
