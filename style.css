@@ -5,7 +5,7 @@ body {
     text-transform: uppercase;
     letter-spacing: .1em;
     top: 15%;
-    background: linear-gradient(to right, rgb(228, 243, 199) , rgb(60, 255, 0)); /* Standard syntax */
+    background: linear-gradient(to right, rgb(255, 255, 255) , rgb(195, 0, 255)); /* Standard syntax */
 }
 h1 {
     font: 600 3em 'Raleway';
@@ -14,7 +14,7 @@ h1 {
 }
 input {
     border: none;
-    background: rgb(228, 243, 199);
+    background: rgb(255, 255, 255);
     border-radius: 6px;
     width: 5vw;
     height: 5vh;
