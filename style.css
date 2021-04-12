@@ -16,8 +16,8 @@ input {
     border: none;
     background: rgb(255, 255, 255);
     border-radius: 6px;
-    width: 10vw;
-    height: 8vh;
+    width: 8vw;
+    height: 6vh;
     
 }
 input[type=color]::-webkit-color-swatch{
@@ -43,6 +43,11 @@ div {
     h1, h2, h3 {
         font-size: 120%;
         margin-top: 10vh;
+    }
+    input {
+        width: 10vw;
+        height: 8vh;
+        
     }
     div {
         height: 30vh;
