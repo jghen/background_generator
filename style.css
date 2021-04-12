@@ -5,7 +5,7 @@ body {
     text-transform: uppercase;
     letter-spacing: .1em;
     top: 15%;
-    background: linear-gradient(to right, rgb(247, 80, 197) , rgb(215, 252, 8)); /* Standard syntax */
+    background: linear-gradient(to right, rgb(247, 80, 197) , rgb(215, 252, 8));
 }
 h1 {
     font: 600 3em 'Raleway';
