@@ -10,6 +10,7 @@ body {
 h1 {
     font: 600 3em 'Raleway';
     width: 100%;
+    margin-top: 3vh;
 }
 input {
     border: none;
