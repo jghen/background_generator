@@ -30,8 +30,7 @@ function changeGradientColor() {
     + ", " 
     + color2.value
     + ")"; 
-
-    /* css.textContent = `Left: ${color1.value} Right: ${color2.value}`; */
+    
     css.textContent = `Left: ${hexToRGB(color1.value)} \u00A0 \u00A0 Right: ${hexToRGB(color2.value)}`;
 };
 
